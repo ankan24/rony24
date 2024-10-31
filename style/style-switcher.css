@@ -76,21 +76,21 @@
 
 
 .style-switcher .color-1{
-    background-color: #ec1839;
+    background-color: red;
 }
 
 .style-switcher .color-2{
-    background-color: #fa5b0f;
+    background-color: blue;
 }
 
 .style-switcher .color-3{
-    background-color: #37b182;
+    background-color: rgb(255, 242, 0);
 }
 
 .style-switcher .color-4{
-    background-color: #1854b4;
+    background-color: rgb(1, 248, 1);
 }
 
 .style-switcher .color-5{
-    background-color: #f021b2;
+    background-color: rgb(255, 128, 0);
 }
