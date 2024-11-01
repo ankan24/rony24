@@ -393,6 +393,85 @@ h3.my-profession {
     border-radius: 5px;
     height: 400px;
 }
+/* Social Media Buttons Styles */
+.social-links {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--bg-black-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-black-900);
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    color: var(--skin-color);
+    transform: scale(1.1);
+}
+
+/* Social Media Buttons Styles */
+.social-links {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--bg-black-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-black-900);
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    color: var(--skin-color);
+    transform: scale(1.1);
+}
+
+/* Individual social button hover effects */
+.facebook:hover {
+    background: #3b5998;
+    color: #fff;
+}
+
+.instagram:hover {
+    background: #e4405f;
+    color: #fff;
+}
+
+.twitter:hover {
+    background: #1da1f2;
+    color: #fff;
+}
+
+.youtube:hover {
+    background: #ff0000;
+    color: #fff;
+}
+
+.linkedin:hover {
+    background: #0077b5;
+    color: #fff;
+}
+
+.github:hover {
+    background: #333;
+    color: #fff;
+}
+
 
 /* About */
 
@@ -705,6 +784,92 @@ h3.my-profession {
     display: block;
     height: 350px;
 }
+.portfolio .container {
+    padding-bottom: 40px;
+}
+
+.portfolio .portfolio-heading {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.portfolio .portfolio-heading h2 {
+    color: var(--text-black-900);
+    font-weight: 500;
+}
+
+.portfolio .portfolio-item {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+
+.portfolio .portfolio-item-inner {
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+.portfolio-buttons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-item-inner:hover .portfolio-buttons {
+    opacity: 1;
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.github-btn {
+    /* background: #24292e; */
+    background: var(--skin-color);
+    color: #fff;
+}
+
+.live-btn {
+    /* background: #007bff; */
+    background: var(--skin-color);
+    color: #fff;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.github-btn:hover {
+    background: #2f363d;
+}
+
+.live-btn:hover {
+    background: #0056b3;
+}
+
+
 
 /* contact */
 .contact-title{
@@ -829,6 +994,7 @@ h3.my-profession {
 }
 
 @media (max-width: 991px){
+    .portfolio-buttons,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .service .service-item{
@@ -846,6 +1012,7 @@ h3.my-profession {
 
 
 @media (max-width: 767px){
+    .portfolio-buttons,
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
