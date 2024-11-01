@@ -419,14 +419,14 @@ h3.my-profession {
 
 /* Social Media Buttons Styles */
 .social-links {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     display: flex;
     gap: 15px;
 }
 
 .social-btn {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background: var(--bg-black-100);
     display: flex;
@@ -436,10 +436,10 @@ h3.my-profession {
     transition: all 0.3s ease;
 }
 
-.social-btn:hover {
+/* .social-btn:hover {
     color: var(--skin-color);
     transform: scale(1.1);
-}
+} */
 
 /* Individual social button hover effects */
 .facebook:hover {
@@ -469,6 +469,11 @@ h3.my-profession {
 
 .github:hover {
     background: #333;
+    color: #fff;
+}
+
+.maps:hover {
+    background: #34a853;  
     color: #fff;
 }
 
@@ -833,16 +838,6 @@ h3.my-profession {
     opacity: 1;
 }
 
-.btn {
-    padding: 8px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 14px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    transition: all 0.3s ease;
-}
 
 .github-btn {
     /* background: #24292e; */
@@ -856,10 +851,6 @@ h3.my-profession {
     color: #fff;
 }
 
-.btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
 
 .github-btn:hover {
     background: #2f363d;
