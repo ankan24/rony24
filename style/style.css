@@ -425,8 +425,8 @@ h3.my-profession {
 }
 
 .social-btn {
-    width: 45px;
-    height: 45px;
+    width: 37px;
+    height: 37px;
     border-radius: 50%;
     background: var(--bg-black-100);
     display: flex;
@@ -436,10 +436,10 @@ h3.my-profession {
     transition: all 0.3s ease;
 }
 
-/* .social-btn:hover {
+.social-btn{
     color: var(--skin-color);
     transform: scale(1.1);
-} */
+}
 
 /* Individual social button hover effects */
 .facebook:hover {
