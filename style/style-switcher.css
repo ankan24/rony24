@@ -3,7 +3,7 @@
     right: 0;
     top:60px;
     padding: 15px;
-    width: 200px;
+    width: 100px;
     border: 1px solid var(--bg-black-50);
     background: var(--bg-black-100);
     z-index: 101;
@@ -62,14 +62,15 @@
 .style-switcher .colors{
     display: flex;
     flex-wrap: wrap;
+    gap: 7px;
     justify-content: space-between;
 }
 
 
 .style-switcher .colors span{
     display: inline-block;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 26px;
     border-radius: 50%;
     border: 2px inset black;
 }
@@ -93,4 +94,17 @@
 
 .style-switcher .color-5{
     background-color: rgb(255, 128, 0);
+}
+
+.style-switcher .color-6{
+    background-color: rgb(255, 0, 155);
+}
+
+
+.style-switcher .music-toggle {
+    top: 110px;
+}
+
+.style-switcher .music-toggle i {
+    line-height: 40px;
 }

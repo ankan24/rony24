@@ -47,3 +47,21 @@ window.addEventListener("load",()=>{
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 })
+
+
+
+// Select the audio element
+const backgroundMusic = document.getElementById("background-music");
+// Toggle music playback on button click
+const musicToggle = document.querySelector(".music-toggle");
+musicToggle.addEventListener("click", () => {
+    if (backgroundMusic.paused) {
+        backgroundMusic.play();
+        musicToggle.querySelector("i").classList.remove("fa-volume-mute");
+        musicToggle.querySelector("i").classList.add("fa-music");
+    } else {
+        backgroundMusic.pause();
+        musicToggle.querySelector("i").classList.remove("fa-music");
+        musicToggle.querySelector("i").classList.add("fa-volume-mute");
+    }
+});

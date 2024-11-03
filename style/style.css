@@ -425,8 +425,8 @@ h3.my-profession {
 }
 
 .social-btn {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: var(--bg-black-100);
     display: flex;
