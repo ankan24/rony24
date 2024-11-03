@@ -984,6 +984,23 @@ h3.my-profession {
     }
 }
 
+
+
+@keyframes colorChange {
+    0% { color: red; }
+    20% { color: blue; }
+    40% { color: rgb(255, 242, 0); }
+    60% { color: rgb(1, 248, 1); }
+    80% { color: rgb(255, 128, 0)rgb(255, 128, 0); }
+    100% { color:  rgb(255, 0, 155); }
+}
+
+h4.color-changer {
+    animation: colorChange 10s infinite;
+}
+
+
+
 @media (max-width: 991px){
     .portfolio-buttons,
     .contact .contact-info-item,
