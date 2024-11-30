@@ -1,5 +1,1 @@
-[![Naruto Running](https://media.giphy.com/media/yYSSBtDgbbRzq/giphy.gif)](https://github.com/ankan24/rony24)
-
-
-
-![Anime City](https://media.giphy.com/media/l0HlOvJ7yaacpuSas/giphy.gif)
+![Anime City](https://i.pinimg.com/originals/16/21/3f/16213fe0d23aa40c1208ba1594acef50.gif)
